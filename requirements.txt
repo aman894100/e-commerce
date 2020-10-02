@@ -12,3 +12,4 @@ toml==0.10.1
 virtualenv==20.0.21
 virtualenvwrapper-win==1.2.6
 wrapt==1.12.1
+gunicorn
