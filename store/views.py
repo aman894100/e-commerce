@@ -12,10 +12,10 @@ from .utils import cookieCart, cartData, guestOrder
 def store(request):
 
      data = cartData(request)
-     cartItems = data['cartItems']
+     # cartItems = data['cartItems']
      
      products = Product.objects.all()
-     context = {'products':products, 'cartItems':cartItems}
+     context = {'products':products, 'cartItems':None}
      return render(request, 'store/store.html', context)
 
 
