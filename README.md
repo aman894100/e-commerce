@@ -1,2 +1,2 @@
 # e-commerce
-Deoplyment of the same in Heorku.
+Deployment of the same in Heorku.
